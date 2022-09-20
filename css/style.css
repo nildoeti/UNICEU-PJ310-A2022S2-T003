@@ -1,0 +1,50 @@
+
+	/* Início da estilização do cabeçalho que inclui imagem, logo, menu */
+	.cabecalho {
+	    max-width: 1920px;
+	}
+
+	.imagem-cabecalho {
+	    height: 1080px;
+	    width: 1920;
+	}
+
+	.largura-espaco-logo {
+	    white-space: nowrap;
+	}
+
+	.estilo-bottom-menu {
+	    bottom: -16px;
+	}
+
+
+/* Efeito Parallax */
+.bgimg-1, .bgimg-2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Imagem Parallax (Portfolio) */
+.bgimg-1 {
+	background-image: url("../img/cabecalho_arcadascriancas.jpg");
+	min-height: 400px;
+}
+
+/* Imagem Parallax (Contato) */
+.bgimg-2 {
+	background-image: url("../img/cabecalho_arcadascriancas.jpg");
+	min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Parallax desativado para telas pequenas */
+@media only screen and (max-device-width: 1600px) {
+	.bgimg-1, .bgimg-2 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
