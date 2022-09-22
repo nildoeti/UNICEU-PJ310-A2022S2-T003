@@ -27,3 +27,13 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
+
+function Map123() {
+var mapOptions = {
+    center:new google.maps.LatLng(-23.771518, -46.670901),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
