@@ -34,8 +34,7 @@ integridade dos dados, promovendo um canal de comunicação com a comunidade.
 
 
 ## Protótipo para o projeto
-Este é um protótipo sugestivo com base nas informações até então recompradas
-junto ao cliente e na web.
+Este é um protótipo sugestivo com base nas informações repassadas pelo cliente e em pesquisas de concorrentes.
 
 
 ![Protótipo](./img/prototipo-projeto-arcadascriancas.jpg)
